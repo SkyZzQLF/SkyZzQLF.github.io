@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&family=Dancing+Script&display=swap');
+
+body {
+    font-family: 'Advent Pro', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style-type: none;
+}
+h2 {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em;
+}
+a {
+    text-decoration: none;
+    color:black;
+}
+/* *********************** IMAGE PRINCIPALE *********************** */
+#imagePrincipale {
+    padding-top: 60px;
+    background: url(images/PNLXDTF.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+#imagePrincipalePNL {
+    padding-top: 60px;
+    background: url(images/PNL\ premier.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+#imagePrincipaleDTF {
+    padding-top: 60px;
+    background: url(images/DTF\ premier.jpg) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 799px;
+}
+#imagePrincipale h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: rgb(250, 250, 250);
+    font-size: 3em;
+    margin-top: 60px;
+    text-shadow: 1px 3px 2px rgb(82, 153, 247);
+}
+#imagePrincipalePNL h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #fffae1;
+    font-size: 6em;
+    margin-top: 230px;
+    text-shadow: 1px 3px 2px black;
+}
+#imagePrincipaleDTF h1 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color: #fffae1;
+    font-size: 6em;
+    margin-top: 230px;
+    text-shadow: 1px 3px 2px black;
+}
+/* *********************** TRAIT *********************** */
+#premierTrait {
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #70aaf5; 
+    box-shadow: 1px 3px 2px black;
+}
+#premierTraitPNL {
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #fffae1; 
+    box-shadow: 1px 3px 2px black;
+}
+#premierTraitDTF {
+    height: 1px;
+    width: 25%;
+    margin: -3px auto;
+    background-color: #fffae1; 
+    box-shadow: 1px 3px 2px black;
+}
+#TraitQLF {
+    height: 1px;
+    width: 35%;
+    margin: 15px auto;
+    background-color: #000000;
+}
+#TraitDFR {
+    height: 1px;
+    width: 35%;
+    margin: 15px auto;
+    background-color: #eeecec;
+}
+#TraitSRV {
+    height: 1px;
+    width: 35%;
+    margin: 15px auto;
+    background-color: #8f8f8f;
+}
+#imagePrincipale h3 {
+    text-align: center;
+    color: rgb(252, 252, 252);
+    font-size: 2em;
+    text-shadow: 1px 3px 2px rgb(82, 153, 247);
+}
+#imagePrincipalePNL h3 {
+    text-align: center;
+    color: #fffae1;
+    font-size: 2em;
+    text-shadow: 1px 3px 2px black;
+}
+#imagePrincipaleDTF h3 {
+    text-align: center;
+    color: #fffae1;
+    font-size: 2em;
+    text-shadow: 1px 3px 2px black;
+}
+/* *************************** PRESENTATION *************************** */
+#presentation {
+        background-color: #fffae1;
+        padding: 10px 0px 100px 0;
+}
+#presentationQLF {
+    background-color: #ffffff;
+    padding: 10px 0px 100px 0;
+}
+#presentationLMC {
+    background-color: #000000;
+    padding: 10px 0px 100px 0;
+}
+#presentationDLL {
+    background-color: #faa422;
+    padding: 10px 0px 100px 0;
+}
+#presentationDFR {
+    background-color: #161616;
+    padding: 10px 0px 100px 0;
+}
+#presentationLHAB {
+    background-color: #8b8b8b;
+    padding: 10px 0px 100px 0;
+}
+#presentationSRV {
+    background-color: #000000;
+    padding: 10px 0px 100px 0;
+}
+#presentationOIO {
+    background-color: #5e0381;
+    padding: 10px 0px 100px 0;
+}
+#presentationDBS {
+    background-color: #864a04;
+    padding: 10px 0px 100px 0;
+}
+#TexteIntro {
+    text-align: center;
+    padding: 0px 20px;
+}
+#TexteQLF {
+    text-align: center;
+    color: #000000;
+    padding: 0px 20px;
+}
+#TexteQLF li {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em; 
+}
+#TexteLMC {
+    text-align: center;
+    color: #ffffff;
+    padding: 0px 20px;
+}
+#TexteLMC li {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em; 
+}
+#TexteDLL {
+    text-align: center;
+    color: #7728c0;
+    padding: 0px 20px;
+}
+#TexteDLL li {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em; 
+}
+#TexteDFR {
+    text-align: center;
+    color: #f04ab0;
+    padding: 0px 20px;
+}
+#TexteDFR li {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em; 
+}
+#TexteLHAB {
+    text-align: center;
+    color: #000000;
+    padding: 0px 20px;
+}
+#TexteLHAB li {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em; 
+}
+#TexteSRV {
+    text-align: center;
+    color: #8f8f8f;
+    padding: 0px 20px;
+}
+#TexteSRV li {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em; 
+}
+#TexteOIO {
+    text-align: center;
+    color: #fc8afc;
+    padding: 0px 20px;
+}
+#TexteOIO li {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em; 
+}
+#TexteDBS {
+    text-align: center;
+    color: #079c0e;
+    padding: 0px 20px;
+}
+#TexteDBS li {
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 2em; 
+}
+#h1LMC {
+    background-color: #be0101;
+    padding: 10px 0px 15px 0;
+    color: #ebe70e;
+}
+#h1QLF {
+    padding: 10px 0px 15px 0;
+    color: #a50202;
+}
+#h1DLL {
+    background-color: #7728c0;
+    padding: 10px 0px 15px 0;
+    color: #faa422;
+}
+#h1DFR {
+    background-color: #eeecec;
+    padding: 10px 0px 45px 0;
+    color: #709fe6;
+}
+#h1LHAB {
+    background-color: #ffffff;
+    padding: 10px 0px 15px 0;
+    color: #eb3333;
+}
+#h1SRV {
+    background-color: #1e1475;
+    padding: 10px 0px 15px 0;
+    color: #f741de;
+}
+#h1OIO {
+    background-color: #012914;
+    padding: 10px 0px 15px 0;
+    color: #ffffff;
+}
+#h1DBS {
+    background-color: #dd915e;
+    padding: 10px 0px 15px 0;
+    color: #086b0d;
+}
+#prestations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.imagesPrestations h4 {
+    font-family: 'Dancin Script', cursive;  
+    text-align: center;
+    font-size: 1.0em;
+    margin: 5.0px;
+    font-weight: 300;
+}
+.imagesPrestations img {
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+}
+.imagesPrestations img:hover {
+    opacity: 0.5;
+    transform: scale(1.05);
+    transition: 0.6s ease-in-out;
+}
+.biographiePrestations {
+    text-align: right;
+    padding: 60px 20px 0.5px 915px;
+    font-size: 1.0em;
+}
+#TitreBioPNL {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    color:#000000 ;
+}
+#IntroDiscoPNL h3 {
+    text-transform: uppercase;
+    text-align: left;
+    padding: 0px 0px 0px 10px;
+    padding-top: 10px;
+    font-size: 1.2em;
+}
+#IntroDiscoPNL p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 0px 0px 0px 0px;
+    padding-top: 0px;
+    font-size: 0.9em;
+}
+#copyrightEtIcons {
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 10%;
+}
+#icons  {
+    width: 50%;
+    text-align: right;
+}
+#icons a {
+    display: inline-block;
+    margin: 0 15px;
+    font-size: 1.3em;
+}
+#icons a:hover {
+    transform: scale(1.5);
+    transition: 0.1s;
+}
